@@ -1,0 +1,31 @@
+#navbar{
+    background-color:#000;
+    margin-top: 25px;
+}
+
+.home-backgound{
+    background-color: #000;
+
+}
+
+#nav-title{
+    color: #FFF;
+    margin-left: 10px;
+}
+
+#btn-join{
+    background-color: #00D5FE;
+    color:#FFF;
+}
+
+#home-content{
+    margin: 0;
+    color:#FFF;
+
+
+}
+
+#home-test{
+    align-items: center;
+    margin: auto;
+}
