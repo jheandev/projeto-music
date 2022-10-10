@@ -1,12 +1,15 @@
-#navbar{
-    background-color:#000;
-    margin-top: 25px;
-}
-
 .home-backgound{
     background-color: #000;
 
 }
+
+
+.font-color{
+    margin-top: 20%;
+   
+}
+
+
 
 #nav-title{
     color: #FFF;
@@ -25,7 +28,3 @@
 
 }
 
-#home-test{
-    align-items: center;
-    margin: auto;
-}

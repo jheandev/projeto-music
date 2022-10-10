@@ -1,7 +1,4 @@
-#navbar{
-    background-color:#000;
-}
-
-#nav-title{
-    color: #FFF;
+*{
+    margin: 0;
+    padding: 0;
 }

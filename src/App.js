@@ -1,29 +1,27 @@
-
 import React from 'react'
-import {Routes ,Route, Router } from 'react-router-dom';
+import {Routes ,Route, BrowserRouter,  } from 'react-router-dom';
 
-import NavbarMusic from './components/NavbarMusic';
-import DiscoverMusic from './components/DiscoverMusic';
-import JoinMusic from './components/JoinMusic';
+
+import DiscoverMusic from './pages/DiscoverMusic';
+import JoinMusic from './pages/JoinMusic';
+import Home from './pages/Home';
+
 
 
 
 function App() {
     return(
        
-<Router>
+       <BrowserRouter>       
    <Routes>
-
-           <Route path="/NavbarMusic" component={NavbarMusic}  />
-           <Route path="/contato" component={DiscoverMusic} />
-           <Route path="/sobre" component={JoinMusic} />
-
-      </Routes>
-
-   </Router>
+           <Route path="/" element={<Home />} />
+           <Route path="/contact" element={<DiscoverMusic /> } />
+           <Route path="/about" element={<JoinMusic /> } />
+          
+   </Routes>
+   </BrowserRouter>
 
     );
-
 
 }
 

@@ -1,0 +1,63 @@
+
+body{
+    background-color: #000;
+   
+}
+
+
+
+.home-backgound{
+    background-color: #000;
+
+}
+
+
+.font-color2{
+    color: #fff;
+    position: absolute;
+    width: 706px;
+    height: 82px;
+    left: 182px;
+    top: 217px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 105px;
+
+
+}
+
+#font-color3{
+    position: absolute;
+    left:90px;
+    bottom: 150px;
+}
+
+
+
+
+.grupo3{
+  
+    position: absolute;
+    width: 122px;
+    height: 113px;
+    left: 205px;
+    top: 433px;
+    width: 30%;
+}
+
+
+
+.font-imagem{
+position: absolute;
+width: 617px;
+height: 536px;
+left: 1116px;
+top: 286px;
+}
+
+
+
+
