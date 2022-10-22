@@ -17,7 +17,7 @@ function NavbarMusic() {
                 <Navbar.Collapse className="justify-content-end">
                     <Row>
                         <Col >  
-                        <Button href="about" variant="outline-light">Discover</Button>
+                        <Button href="contact" variant="outline-light">Discover</Button>
                         </Col>
                         <Col >  
                         <Button href="about" variant="outline-light">JOIN</Button>
